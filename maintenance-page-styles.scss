@@ -32,3 +32,18 @@
         transform: perspective(400px) rotateY(180deg);
     }
 }
+
+.maintenance-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FF0000; /* Couleur de la bannière */
+    color: #FFFFFF; /* Couleur du texte */
+    padding: 10px; /* Espace à l'intérieur de la bannière */
+    font-size: 18px; /* Taille du texte */
+    text-align: center; /* Alignement du texte */
+    transform: rotate(-45deg); /* Rotation de la bannière */
+    transform-origin: left bottom; /* Point d'origine de la rotation */
+    z-index: 999; /* Assure que la bannière est au-dessus de tout le reste */
+}
