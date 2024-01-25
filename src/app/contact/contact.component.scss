@@ -1,0 +1,73 @@
+$primary-color: #007bff;
+$secondary-color: #0056b3;
+
+.contact {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #725341;
+
+  h2 {
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .icon {
+        font-size: 19px;
+        color: #ccc;
+        cursor: pointer;
+        transition: color 0.3s;
+        margin: 10px 0;
+
+        &:hover {
+          color: #fff;
+        }
+
+        img {
+          width: 24px;
+          margin-right: 10px;
+          vertical-align: middle;
+          filter: invert(86%) sepia(0%) saturate(8%) hue-rotate(122deg) brightness(96%) contrast(93%);
+        }
+      }
+    }
+
+    .contact-map {
+      width: calc(100% - 40px); // Ajuste la largeur pour ajouter de l'espace à gauche et à droite
+      margin: 20px auto; // Ajoute de l'espace en haut et en bas, et centre horizontalement
+      border: 1px solid #ccc;
+      flex: 1;
+
+      #map {
+        height: 300px;
+        width: 100%;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .contact-content {
+      flex-direction: row;
+
+      .contact-icons {
+        align-items: flex-start;
+      }
+
+      .contact-map {
+        width: 70%;
+        margin-left: 20px;
+      }
+    }
+  }
+}

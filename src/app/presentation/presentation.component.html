@@ -1,0 +1,26 @@
+<section class="presentation" [@scrollAnimation]="scrollState">
+  <div class="presentation-content" [class.separated]="scrollState === 'separating'">
+    <div class="presentation-text" [style.transform]="'translateX(' + -scrollProgress * 100 + '%)'">
+      <h2>Présentation</h2>
+      <p>
+        <h3>QUI SUIS-JE</h3>
+        Bonjour, moi c'est Morgane.
+        <br><br>
+        Passionnée depuis toujours par les animaux, j'ai maintenant l'honneur de travailler avec eux mais surtout pour eux
+        <br><br>
+        <br><br>
+        <h3>LE MÊME MESSAGE POUR TOUS ?</h3>
+        Chaque animal est différent, c'est pour cela que plusieurs évaluations sont faites au préalable. Cela me permet de créer un massage sur mesure pour chacuns.
+        <br><br>
+        <br><br>
+        <h3>POUR QUI ? POUR QUOI ?</h3>
+        Pour tous les animaux, jeunes, veillissant, sportifs, de compagnie ou de loisir...
+        <br><br>
+        Pour accompagner la croissance, en préparation ou récupération de compétition, pour leur offrir un moment de détente physique et mental
+      <!-- </p> -->
+    </div>
+    <div class="presentation-image" [style.transform]="'translateX(' + scrollProgress * 100 + '%)'">
+      <img src="assets/picture/photohades.jpg" alt="Présentation">
+    </div>
+  </div>
+</section>
