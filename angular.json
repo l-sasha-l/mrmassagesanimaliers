@@ -17,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/mrmassagesanimaliers/",
             "outputPath": "dist/mr-massages-animaliers",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -64,9 +63,6 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options": {
-            "baseHref": "/mrmassagesanimaliers/"
-          },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
