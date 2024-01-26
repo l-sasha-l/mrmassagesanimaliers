@@ -12,7 +12,7 @@ $secondary-color: #0056b3;
   }
 
   .contact-content {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,10 @@ $secondary-color: #0056b3;
       }
     }
 
+    .contact-deplacement {
+      color: #ccc;
+    }
+
     .contact-map {
       width: calc(100% - 40px); // Ajuste la largeur pour ajouter de l'espace à gauche et à droite
       margin: 20px auto; // Ajoute de l'espace en haut et en bas, et centre horizontalement
@@ -57,17 +61,47 @@ $secondary-color: #0056b3;
   }
 
   @media (min-width: 768px) {
-    .contact-content {
+    .contact-deplacement {
+      display: flex;
       flex-direction: row;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 5%;
+      justify-content: space-between;
+      gap: 10%;
+    }
 
+    .contact-content {
+      display: flex;
+      flex-direction: column; // Changez de colonne à ligne
+      justify-content: space-between; // Ajoutez cet attribut pour espacer les éléments
+
+      
       .contact-icons {
-        align-items: flex-start;
-      }
+        display: flex;
+        flex-direction: row; // Vous pouvez même retirer cette ligne si vous avez déjà défini dans .contact-content
 
-      .contact-map {
-        width: 70%;
-        margin-left: 20px;
+        .icon {
+          font-size: 19px;
+          color: #ccc;
+          cursor: pointer;
+          transition: color 0.3s;
+          margin: 10px 40px;
+
+          &:hover {
+            color: #fff;
+          }
+
+          img {
+            width: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+            filter: invert(86%) sepia(0%) saturate(8%) hue-rotate(122deg) brightness(96%) contrast(93%);
+          }
+        }
       }
     }
   }
 }
+
+
