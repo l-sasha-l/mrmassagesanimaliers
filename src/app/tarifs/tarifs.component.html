@@ -1,72 +1,7 @@
-<!-- <section class="tarifs">
-  <h2>Tarifs</h2>
-  <div class="tarifs-grid">
-    <div class="tarif">
-      <h3>Forfait 1</h3>
-      <p>Prix : $50</p>
-      <p>Description : Forfait de base</p>
-    </div>
-    <div class="tarif">
-      <h3>Forfait 2</h3>
-      <p>Prix : $75</p>
-      <p>Description : Forfait intermédiaire</p>
-    </div>
-    <div class="tarif">
-      <h3>Forfait 3</h3>
-      <p>Prix : $100</p>
-      <p>Description : Forfait premium</p>
-    </div>
-  </div>
-</section> -->
-
-<!-- tarifs.component.html -->
-<!-- tarifs.component.html -->
-<!-- <div *ngFor="let pack of tarifsEquins">
-  <h2>{{ pack.pack }}</h2>
-  <ul>
-    <li *ngFor="let massage of pack.massages">{{ massage.type }} - {{ formatPrix(massage.prix) }}</li>
-  </ul>
-</div>
-
-<div *ngFor="let pack of tarifsCanins">
-  <h2>{{ pack.pack }}</h2>
-  <ul>
-    <li *ngFor="let massage of pack.massages">{{ massage.type }} - {{ formatPrix(massage.prix) }}</li>
-  </ul>
-</div> -->
-
-<!-- <div *ngFor="let pack of tarifsEquins; let even = even">
-  <div class="pack-container" [ngClass]="{'image-right': even, 'image-left': !even}">
-    <div class="image-container">
-      <img src="{{ pack.image }}" alt="{{ pack.pack }}" />
-    </div>
-    <div class="content-container">
-      <h2>{{ pack.pack }}</h2>
-      <ul>
-        <li *ngFor="let massage of pack.massages">{{ massage.type }} - {{ formatPrix(massage.prix) }}</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div *ngFor="let pack of tarifsCanins; let even = even">
-  <div class="pack-container" [ngClass]="{'image-right': even, 'image-left': !even}">
-    <div class="image-container">
-      <img src="{{ pack.image }}" alt="{{ pack.pack }}" />
-    </div>
-    <div class="content-container">
-      <h2>{{ pack.pack }}</h2>
-      <ul>
-        <li *ngFor="let massage of pack.massages">{{ massage.type }} - {{ formatPrix(massage.prix) }}</li>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
 <!-- tarifs.component.html -->
 <div class="tarifs-container">
   <div class="tarif-equins">
-    <h1>Tarif equins</h1>
+    <h1>Tarifs équins</h1>
     <div *ngFor="let pack of tarifsEquins; let i = index" class="pack-container" [class.image-right]="i % 2 === 0"
       [class.image-left]="i % 2 !== 0">
       <div class="image-container">
@@ -86,7 +21,7 @@
   </div>
 
   <div class="tarif-canins">
-    <h1>Tarif canins</h1>
+    <h1>Tarifs canins</h1>
     <div *ngFor="let pack of tarifsCanins; let i = index" class="pack-container" [class.image-right]="i % 2 === 0"
       [class.image-left]="i % 2 !== 0">
 
