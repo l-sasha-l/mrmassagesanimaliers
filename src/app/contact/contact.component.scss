@@ -57,6 +57,7 @@ $secondary-color: #0056b3;
       #map {
         height: 300px;
         width: 100%;
+        z-index: inherit;
       }
     }
   }
