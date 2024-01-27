@@ -5,10 +5,10 @@ import { TarifsComponent } from './tarifs/tarifs.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: 'presentation', component: PresentationComponent },
-  { path: 'tarifs', component: TarifsComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: '/presentation', pathMatch: 'full' }, // Redirige vers la présentation par défaut
+  { path: '', component: PresentationComponent },
+  { path: '', component: TarifsComponent },
+  { path: '', component: ContactComponent },
+  { path: '', redirectTo: '/', pathMatch: 'full' }, // Redirige vers la présentation par défaut
 ];
 
 @NgModule({
