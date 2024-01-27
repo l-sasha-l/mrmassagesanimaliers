@@ -1,4 +1,4 @@
-import { Component, HostListener, AfterViewInit, Renderer2 } from '@angular/core';
+import { Component, HostListener, AfterViewInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
 import anime from 'animejs/lib/anime.es.js';
@@ -12,11 +12,23 @@ import anime from 'animejs/lib/anime.es.js';
 export class HeaderComponent implements AfterViewInit {
   isScrolled: boolean = false;
   isMenuOpen: boolean = false;
+  @ViewChild('videoHeader')
+  videoHeader!: ElementRef;
 
   constructor(private router: Router, private route: ActivatedRoute, private renderer: Renderer2) {}
 
   ngAfterViewInit() {
     this.animateTitle();
+    this.lunchVideo();
+  }
+
+  lunchVideo() {
+    // Accéder à l'élément vidéo après que la vue a été initialisée
+    const videoElement: HTMLVideoElement = this.videoHeader.nativeElement;
+
+    // Contrôles vidéo Angular
+    videoElement.play(); // Démarre la lecture automatique
+    videoElement.volume = 0; // Mise en sourdine
   }
 
   scrollToSection(sectionId: string): void {

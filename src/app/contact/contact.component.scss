@@ -52,6 +52,7 @@ $secondary-color: #0056b3;
       margin: 20px auto; // Ajoute de l'espace en haut et en bas, et centre horizontalement
       border: 1px solid #ccc;
       flex: 1;
+      z-index: 1;
 
       #map {
         height: 300px;

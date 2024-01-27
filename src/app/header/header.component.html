@@ -2,7 +2,7 @@
   <div class="logo" [ngClass]="{'hide': isScrolled}">
     <img src="assets/picture/logoBG.png" alt="Logo">
   </div>
-  <video autoplay muted loop>
+  <video #videoHeader autoplay muted loop playsinline preload="auto">
     <!-- Ajoutez le chemin de votre vidéo ici -->
     <source src="assets/mp4/video-massage.mp4" type="video/mp4">
     Your browser does not support the video tag.
