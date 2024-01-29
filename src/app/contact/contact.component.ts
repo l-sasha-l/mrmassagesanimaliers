@@ -21,17 +21,6 @@ export class ContactComponent {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
 
-    // Ajouter un marqueur à la position spécifiée
-    // L.marker([this.lat, this.long]).addTo(this.map);
-
-    // Configurer et afficher l'itinéraire
-    L.Routing.control({
-      waypoints: [
-        L.latLng(this.lat, this.long),
-        // Ajoutez ici les coordonnées de votre destination
-      ],
-      routeWhileDragging: true
-    }).addTo(this.map);
   }
 
   callPhoneNumber(): void {
