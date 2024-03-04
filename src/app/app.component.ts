@@ -6,7 +6,7 @@ import {NavigationEnd, NavigationStart, Router} from "@angular/router";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'mr-massages-animaliers';
 
   loader = true;
@@ -22,12 +22,5 @@ export class AppComponent implements OnInit {
         }, 2000);
       }
     });
-  }
-
-
-  ngOnInit(): void {
-    // setTimeout(() => {
-    //   this.loader = false;
-    // }, 1000);
   }
 }

@@ -1,4 +1,4 @@
-import { Component, HostListener, AfterViewInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
+import { Component, HostListener, AfterViewInit, Renderer2, ViewChild, ElementRef, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
 import anime from 'animejs/lib/anime.es.js';
@@ -9,13 +9,17 @@ import anime from 'animejs/lib/anime.es.js';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements AfterViewInit {
+export class HeaderComponent implements AfterViewInit, OnInit {
   isScrolled: boolean = false;
   isMenuOpen: boolean = false;
   @ViewChild('videoHeader')
   videoHeader!: ElementRef;
 
   constructor(private router: Router, private route: ActivatedRoute, private renderer: Renderer2) {}
+
+  ngOnInit() {
+    // Indiquer que le composant est chargé
+  }
 
   ngAfterViewInit() {
     this.animateTitle();

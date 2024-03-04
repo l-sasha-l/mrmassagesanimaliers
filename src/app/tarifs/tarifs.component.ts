@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tarifs',
   templateUrl: './tarifs.component.html',
   styleUrls: ['./tarifs.component.scss']
 })
-export class TarifsComponent {
+export class TarifsComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+    // Indiquer que le composant est chargé
+  }
+  
   tarifsEquins: any[] = [
     {
       Titre: 'Tarifs équins',
