@@ -1,22 +1,3 @@
-// // src/components/Footer.js
-// import React from 'react';
-
-// const Footer = ({ onOpenMentionsLegales }) => {
-//   return (
-//     <footer className="bg-gray-800 p-4 text-center">
-//       <button
-//         onClick={onOpenMentionsLegales}
-//         className="text-white underline"
-//       >
-//         Mentions légales
-//       </button>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
-
-// Footer.js
 import React from 'react';
 
 const Footer = ({ onOpenMentionsLegales }) => {

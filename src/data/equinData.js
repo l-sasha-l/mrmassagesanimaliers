@@ -5,7 +5,6 @@ import photoEquin3 from '../assets/picture/tarifs/PHOTO-2023-12-04-21-11-59.jpg'
 // data/equinData.js
 export const equinData = {
     title: "Equins",
-    // backgroundColor: "bg-[#8B4513]",
     backgroundColor: "bg-[#ae907e]",
     cards: [
       {

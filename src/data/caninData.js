@@ -2,10 +2,8 @@ import photoCanin1 from '../assets/picture/tarifs/PHOTO-2023-12-04-21-13-38.jpg'
 import photoCanin2 from '../assets/picture/tarifs/PHOTO-2023-12-04-21-14-15.jpg';
 import photoCanin3 from '../assets/picture/tarifs/PHOTO-2023-12-04-21-14-17.jpg';
 
-// data/caninData.js
 export const caninData = {
     title: "Canins",
-    // backgroundColor: "bg-[#ae907e]",
     backgroundColor: "bg-[#ae907e]",
     cards: [
       {
