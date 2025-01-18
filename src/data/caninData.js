@@ -13,10 +13,11 @@ export const caninData = {
         textColor: "text-[#734930]",
         bulletColor: "bg-[#734930]",
         priceList: [
-          "Massage canin : 45€",
-          "Massage canin + enveloppement* : 70€",
-          "Séance découverte : 35€",
-          "Consultation bien-être : 30€"
+          'Massage confort "Simple" (adultes) : 55 €',
+          'Massage confort "Simple" (jeunes/vieillissants) : 40 €',
+          'Massage enveloppement "Max" : 75 €',
+          'Enveloppement 1 zone* : 7 €',
+          'Enveloppement seul corps complet : 30 €'
         ]
       },
       {
@@ -26,10 +27,10 @@ export const caninData = {
         textColor: "text-[#734930]",
         bulletColor: "bg-[#734930]",
         priceList: [
-          "Forfait 3 séances : 120€",
-          "Forfait 6 séances : 225€",
-          "Forfait senior : 180€",
-          "Forfait post-opératoire : 200€"
+          'Massage prépa : 25 €',
+          'Massage récup : 35 €',
+          'Pack concours (prépa + récup) : 50 €',
+          'Enveloppement 1 zone* : 7 €'
         ]
       },
       {
@@ -39,10 +40,10 @@ export const caninData = {
         textColor: "text-[#734930]",
         bulletColor: "bg-[#734930]",
         priceList: [
-          "Suivi rééducation : 160€",
-          "Programme sportif : 140€",
-          "Bilan comportemental : 50€",
-          "Consultation à domicile : +15€"
+          'Forfait premium: 5 Séances "Simple" : 260 €',
+          'Forfait Gold 10 "Simple" : 495 €',
+          'Forfait Mixte 10 "Simple" Inter-espèce : -10% au total',
+          'Forfait Prestige 10 "Max" : 635 €'
         ]
       }
     ]
