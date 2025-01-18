@@ -1,0 +1,28 @@
+/* styles/typography.css */
+
+/* Import des polices */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500&display=swap');
+
+/* Variables globales */
+:root {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+/* Application des polices */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+body, p, span, a, div {
+  font-family: var(--font-body);
+}
+
+/* Classes utilitaires simples */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
