@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/mrmassagesanimaliers/static/css/main.6cb1a4b3.css",
-    "main.js": "/mrmassagesanimaliers/static/js/main.d8c0cf82.js",
-    "static/js/453.dd7ab6a3.chunk.js": "/mrmassagesanimaliers/static/js/453.dd7ab6a3.chunk.js",
-    "static/media/video-massage.mp4": "/mrmassagesanimaliers/static/media/video-massage.7fa3914bca09f9a81018.mp4",
-    "static/media/photohades.jpg": "/mrmassagesanimaliers/static/media/photohades.f571ca0bc89f4599693a.jpg",
-    "static/media/PHOTO-2023-12-04-21-14-15.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-14-15.00c527eee6a03070f540.jpg",
-    "static/media/logoBG.png": "/mrmassagesanimaliers/static/media/logoBG.e1fa202071326841f3e7.png",
-    "static/media/PHOTO-2023-12-04-21-11-31.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-11-31.26db45ed2b8d38cf65d1.jpg",
-    "static/media/PHOTO-2023-12-04-21-14-17.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-14-17.fbdcbb73c6165c4edcbf.jpg",
-    "static/media/logo-clair.png": "/mrmassagesanimaliers/static/media/logo-clair.cb4f5e1f85eb9f42a608.png",
-    "static/media/PHOTO-2023-12-04-21-11-45.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-11-45.2bc395ff8fb18116dc91.jpg",
-    "static/media/PHOTO-2023-12-04-21-13-38.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-13-38.6ab1c07b7c6539c96318.jpg",
-    "static/media/marker.png": "/mrmassagesanimaliers/static/media/marker.78e273068e1b3bc1d879.png",
-    "static/media/PHOTO-2023-12-04-21-11-59.jpg": "/mrmassagesanimaliers/static/media/PHOTO-2023-12-04-21-11-59.8628c323f8df1ec3c510.jpg",
-    "index.html": "/mrmassagesanimaliers/index.html",
-    "main.6cb1a4b3.css.map": "/mrmassagesanimaliers/static/css/main.6cb1a4b3.css.map",
-    "main.d8c0cf82.js.map": "/mrmassagesanimaliers/static/js/main.d8c0cf82.js.map",
-    "453.dd7ab6a3.chunk.js.map": "/mrmassagesanimaliers/static/js/453.dd7ab6a3.chunk.js.map"
+    "main.css": "/static/css/main.6cb1a4b3.css",
+    "main.js": "/static/js/main.1ceedda1.js",
+    "static/js/453.dd7ab6a3.chunk.js": "/static/js/453.dd7ab6a3.chunk.js",
+    "static/media/video-massage.mp4": "/static/media/video-massage.7fa3914bca09f9a81018.mp4",
+    "static/media/photohades.jpg": "/static/media/photohades.f571ca0bc89f4599693a.jpg",
+    "static/media/PHOTO-2023-12-04-21-14-15.jpg": "/static/media/PHOTO-2023-12-04-21-14-15.00c527eee6a03070f540.jpg",
+    "static/media/logoBG.png": "/static/media/logoBG.e1fa202071326841f3e7.png",
+    "static/media/PHOTO-2023-12-04-21-11-31.jpg": "/static/media/PHOTO-2023-12-04-21-11-31.26db45ed2b8d38cf65d1.jpg",
+    "static/media/PHOTO-2023-12-04-21-14-17.jpg": "/static/media/PHOTO-2023-12-04-21-14-17.fbdcbb73c6165c4edcbf.jpg",
+    "static/media/logo-clair.png": "/static/media/logo-clair.cb4f5e1f85eb9f42a608.png",
+    "static/media/PHOTO-2023-12-04-21-11-45.jpg": "/static/media/PHOTO-2023-12-04-21-11-45.2bc395ff8fb18116dc91.jpg",
+    "static/media/PHOTO-2023-12-04-21-13-38.jpg": "/static/media/PHOTO-2023-12-04-21-13-38.6ab1c07b7c6539c96318.jpg",
+    "static/media/marker.png": "/static/media/marker.78e273068e1b3bc1d879.png",
+    "static/media/PHOTO-2023-12-04-21-11-59.jpg": "/static/media/PHOTO-2023-12-04-21-11-59.8628c323f8df1ec3c510.jpg",
+    "index.html": "/index.html",
+    "main.6cb1a4b3.css.map": "/static/css/main.6cb1a4b3.css.map",
+    "main.1ceedda1.js.map": "/static/js/main.1ceedda1.js.map",
+    "453.dd7ab6a3.chunk.js.map": "/static/js/453.dd7ab6a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cb1a4b3.css",
-    "static/js/main.d8c0cf82.js"
+    "static/js/main.1ceedda1.js"
   ]
 }
